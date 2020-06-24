@@ -1,0 +1,41 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-svg {
+  margin: 1rem 20rem 0 0;
+}
+
+main span {
+  text-align: center;
+  margin: -2rem 0 2rem 10rem;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 0.8rem;
+}
+
+.fa-thumbs-up {
+    color: rgba(0, 195, 255, 0.555);
+}
+
+.main__component {
+  display: block;
+  margin: 0 auto;
+}
+
+.main__component span {
+  display: inline-block;
+  width: 12rem;
+  margin: 6rem -0.5rem -1rem 0;
+  line-height: 2rem;
+  font-size: 1rem;
+  z-index: 24;
+  -webkit-font-smoothing: antialiased;
+}
+
+.main-image {
+  width: 20rem;
+  height: 20rem;
+  z-index: -1;
+}

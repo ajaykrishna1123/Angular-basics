@@ -1,0 +1,37 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.2rem;
+    height: 99vh;
+    width: 99vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: #00FFA7;
+    color: rgba(0, 0, 0, 0.3);
+    box-shadow: 0px;
+    transition: all 0.3s ease-in-out;
+} 
+
+.nav-links:hover {
+    box-shadow: 0px -2.4rem 0px 0px #00FFA7 inset;
+    color: black;
+}
